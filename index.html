@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator app</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" id="theme-switcher" href="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="f">
+  <div class="calc-main f">
+
+    <div class="heading f">
+      <p>calc</p>
+      <div class="theme-btn f">
+        <p>theme</p>
+        <div class="theme-set">
+          <div class="theme-no">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+          </div>
+          <div class="toggle3">
+            <label for="state1" class="box1">
+                <input type="checkbox" checked id="state1">
+                <div class="disc1"></div>
+            </label>
+            <label for="state2" class="box2">
+                <input type="checkbox" id="state2">
+                <div class="disc2"></div>
+            </label>
+            <label for="state3" class="box3">
+                <input type="checkbox" id="state3">
+                <div class="disc3"></div>
+            </label>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="screen f">
+      <h1></h1>
+    </div>
+
+    <div class="keypad">
+      <button value="7" >7</button>
+      <button value="8" >8</button>
+      <button value="9" >9</button>
+      <button id="del" value="del">DEL</button>
+      <button value="4" >4</button>
+      <button value="5" >5</button>
+      <button value="6" >6</button>
+      <button id="add" value="+">+</button>
+      <button value="1" >1</button>
+      <button value="2" >2</button>
+      <button value="3" >3</button>
+      <button id="sub" value="-">-</button>
+      <button value=".">.</button>
+      <button value="0" >0</button>
+      <button value="/" id="divide">/</button>
+      <button value="*" id="mult">x</button>
+      <button value="reset" id="reset">RESET</button>
+      <button value="equal" id="equal">=</button>
+    </div>
+  </div>
+  <footer>
+    <hr>
+    <p>SnappyKODE &copy; 2023</p>
+  </footer>
+
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
