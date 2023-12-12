@@ -205,27 +205,40 @@ footer p{
 
 @media screen and (max-width: 450px) and (orientation: portrait) {
     .keypad button{
-        height: 35px;
-        min-width: 60px;
+        min-height: 40px;
+        min-width: 40px;
+    }   
+
+    .toggle3{
+        height: 19px;
+        width: 45px;
     }
     
-    
-    
-    #reset , #equal{
-        grid-column: span 2;
+    .box1,.box2,.box3{
+        height: 19px;
+        width: 24px;
+    }
+
+    .disc1,.disc2,.disc3{
+        height: 15px;
+        width: 15px;  
+    }
+
+    .keypad{
+        gap: 15px;
+        padding: 10px;
     }
     
     #reset , #del{
-        background-color: var(--key-bg-1);
-        border-color: var(--key-bg-1-s);
-        color: var(--text2);
         font-size: 0.8rem;
     }
-    
-    #equal{
-        background-color: var(--key-bg-2);
-        border-color: var(--key-bg-2-s);
-        box-shadow: var(--key-bg-2-s) ;
-        color: var(--e-text);
+
+    footer{
+        bottom: 0px;
     }
+    
+    footer p{
+        margin: 10px;
+    }
+    
 }
